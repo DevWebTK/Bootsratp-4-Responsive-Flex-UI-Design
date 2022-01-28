@@ -32,3 +32,19 @@ $yellowColor: #fff700;
   content: "";
   margin-left: 20px;
 }
+@media (max-width: 776px) {
+  .flex-sm-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  .flex-sm-column div {
+    margin-bottom: 15px;
+  }
+
+  .flex-sm-column div {
+    margin-bottom: 15px;
+  }
+  .flex-sm-column span::after {
+    content: none !important;
+  }
+}
